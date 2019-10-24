@@ -1,0 +1,119 @@
+.container{
+    background-color: lightblue;
+    
+}
+table{
+    border: 1px solid black;
+}
+td
+{
+    width: 50px;
+    border: 1px solid black;
+}
+
+#Progress_Status { 
+    width: 50%; 
+    background-color: #ddd; 
+  } 
+    
+  #myprogressBar { 
+    width: 1%; 
+    height: 35px; 
+    background-color: #4CAF50; 
+    text-align: center; 
+    line-height: 32px; 
+    color: black; 
+  }
+
+  .slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  #Coche {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 75px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+  
+    
+  }
+  #Coche::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+    background: url('../img/Coche.jpg');
+    cursor: pointer;
+  }
+  
+  #Coche::-moz-range-thumb{
+    width: 100px;
+    height: 75px;
+    border: 0;
+    background: url('../img/Coche.jpg');
+    cursor: pointer;
+  }
+
+  #Tranvia {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 75px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+  
+    
+  }
+  #Tranvia::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+    background: url('../img/Tranvia.jpg');
+    cursor: pointer;
+  }
+  
+  #Tranvia::-moz-range-thumb{
+    width: 100px;
+    height: 75px;
+    border: 0;
+    background: url('../img/Tranvia.jpg');
+    cursor: pointer;
+  }
+
+  #Guagua {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 75px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+  
+    
+  }
+  #Guagua::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+    background: url('../img/Guagua.jpeg');
+    cursor: pointer;
+  }
+  
+  #Guagua::-moz-range-thumb{
+    width: 100px;
+    height: 75px;
+    border: 0;
+    background: url('../img/Guagua.jpeg');
+    cursor: pointer;
+  }
+
+  table{
+    text-align: center;
+  }
